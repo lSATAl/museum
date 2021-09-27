@@ -186,6 +186,9 @@ h2 {
   button:hover {
     background-color: var(--Font-gold);
   }
+  button:active {
+    background-color: var(--Font-gold-active);
+  }
 }
 .welcome_slider {
   position: absolute;
@@ -442,8 +445,12 @@ h2 {
   justify-content: space-between;
   padding: 25px 30px 25px 30px;
   align-items: center;
-  img {
+  svg {
     cursor: pointer;
+    fill: #b3b3b3;
+  }
+  svg:hover {
+    fill: #989898;
   }
 }
 .video_progress,

@@ -226,6 +226,10 @@ h2 {
   background-color: var(--Font-gold);
 }
 
+.welcome_info button:active {
+  background-color: var(--Font-gold-active);
+}
+
 .welcome_slider {
   position: absolute;
   top: 0;
@@ -578,8 +582,13 @@ h2 {
           align-items: center;
 }
 
-.video_panel img {
+.video_panel svg {
   cursor: pointer;
+  fill: #b3b3b3;
+}
+
+.video_panel svg:hover {
+  fill: #989898;
 }
 
 .video_progress,
